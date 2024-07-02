@@ -5,14 +5,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/hello-world")
+@RequestMapping("/objetivos")
 
-
-public class HelloWorldController {
+public class ObjectivesController {
 	
 	@GetMapping
-		public String helloWorld() {
-		return "Hello World!!!";
+		public String obj() {
+		return "Aprender a Usar Spring Tools";
 	}
 
 }
